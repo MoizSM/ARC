@@ -1,10 +1,17 @@
 import sys
 import json
+import numpy as np
 
-try : 
+
+def solve():
     with open(sys.argv[1] , 'r') as f:
         data = json.load(f)
-        print(data)
 
-except:
-    print('Please Enter a JSON File Name')
+    grid = np.asarray(data['test'][0]['input'])
+    for i in range(len(grid)):
+        print(grid[i])
+    
+       
+
+
+solve()
