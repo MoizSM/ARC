@@ -9,7 +9,17 @@ def solve():
 
     grid = np.asarray(data['test'][0]['input'])
     for i in range(len(grid)):
-        print(grid[i])
+        checkVal = grid[i][0]
+        check = True
+        for j in grid[i]:
+            if (checkVal!= j):
+                check = False
+        if (check == True):
+            grid[i] = 5
+        else:
+            grid[i] = 0
+    print(grid)
+
     
        
 
