@@ -12,9 +12,9 @@ def solve():
         if ((i==0) or i == len(data)-1):
             data[i] = 8
         else:
-            for j in data[i+1]:
-                if (j == 0):
-                    data[j] = 8
+            for j in data[i]:
+                data[i][0] = 8
+                data[i][-1] = 8
     print(data)
 
 solve()
