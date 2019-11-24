@@ -7,6 +7,7 @@ def solve():
     with open(sys.argv[1] , 'r') as f:
         dataset = json.load(f)
         data = np.asarray(dataset["test"][0]["input"])
+        
     for i in range(len(data)):
         if ((i==0) or i == len(data)-1):
             data[i] = 8
