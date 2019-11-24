@@ -19,6 +19,8 @@ def solve():
                 grid[i][x] = 2
             else:
                 grid[i][x] = 0
+            if (count > 3):
+                grid[1][1]= 2
     
     print(grid)
         
