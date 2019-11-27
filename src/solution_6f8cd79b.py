@@ -6,16 +6,19 @@ import numpy as np
 def solve():
     with open(sys.argv[1] , 'r') as f:
         dataset = json.load(f)
-        data = np.asarray(dataset["test"][0]["input"])
-        
-    for i in range(len(data)):
-        if ((i==0) or i == len(data)-1):
-            data[i] = 8
-        else:
-            for j in data[i]:
-                data[i][0] = 8
-                data[i][-1] = 8
-    print(data)
+    
+    var = ['train' , 'test']
+    for x in var:
+        for n in range(len(dataset[x])):
+            gridData = np.asarray(dataset[x][n]['input'])        
+            for i in range(len(gridData)):
+                if ((i==0) or i == len(gridData)-1):
+                    gridData[i] = 8
+                else:
+                    for j in gridData[i]:
+                        gridData[i][0] = 8
+                        gridData[i][-1] = 8
+            print(gridData, '\n')
 
 solve()
 
