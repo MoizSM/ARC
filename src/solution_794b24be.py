@@ -10,12 +10,10 @@ def solve():
     for z in var:
         for n in range(len(data[z])):
             grid = np.asarray(data[z][n]['input'])
-
             count = 0
             for x in np.nditer(grid):
                 if x!=0 :
                     count = count + 1
-            # print(grid)
 
             for i in range(len(grid)):
                 for x in range(len(grid[i])):
@@ -23,6 +21,7 @@ def solve():
                         grid[i][x] = 2
                     else:
                         grid[i][x] = 0
+                    
                     if (count > 3):
                         grid[1][1]= 2
     
