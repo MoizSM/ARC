@@ -16,7 +16,7 @@ def solve(): #Logic Funtion
                 if ((i==0) or i == len(gridData)-1):
                     gridData[i] = 8
                 else:
-                    for j in gridData[i]:
+                    for _ in gridData[i]:
                         gridData[i][0] = 8
                         gridData[i][-1] = 8
             print(gridData, '\n') #Printing the output gruds
