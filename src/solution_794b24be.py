@@ -22,9 +22,9 @@ def solve(): #Function that contains the logic to solve the task
                     if ( i == 0 and x < count ):
                         grid[i][x] = 2
                     else:
-                        grid[i][x] = 0
+                        grid[i][x] = 0 
                     if (count > 3):
-                        grid[1][1]= 2
+                        grid[1][1]= 2 # When elements are more than 3 then we place the next element in second row and second column
     
             print(grid , '\n') #Printing the ouput grid
         

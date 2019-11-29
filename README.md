@@ -30,6 +30,19 @@ A "grid" is a rectangular matrix (list of lists) of integers between 0 and 9 (in
 
 When looking at a task, a test-taker has access to inputs & outputs of the demonstration pairs, plus the input(s) of the test pair(s). The goal is to construct the output grid(s) corresponding to the test input grid(s), using 3 trials for each test input. "Constructing the output grid" involves picking the height and width of the output grid, then filling each cell in the grid with a symbol (integer between 0 and 9, which are visualized as colors). Only *exact* solutions (all cells match the expected answer) can be said to be correct.
 
+## Usage of Command Line Arguments
+The approaches can be evaluated using the interface of the command line by defining the route to the json folder in the file directory in either training or evaluation
+* Task 1 solution_6f8cd79b.py
+python solution_6f8cd79b.py <<path_to_repository>>\ARC\data\<<training or evaluation\json file>>
+* Task 2 solution_25d8a9c8.py
+python solution_25d8a9c8.py <<path_to_repository>>\ARC\data\<<training or evaluation\json file>>
+* Task 3 solution_794b24be.py
+python solution_794b24be.py <<path_to_repository>>\ARC\data\<<training or evaluation\json file>>
+
+## Visualized view of the input and output
+![TASK 1](\apps\img\1,PNG)
+![TASK 2](\apps\img\2.PNG)
+![TASK 3](\apps\img\3.PNG)
 
 ## Usage of the testing interface
 
