@@ -40,7 +40,7 @@ python solution_25d8a9c8.py <<path_to_repository>>\ARC\data\<<training or evalua
 python solution_794b24be.py <<path_to_repository>>\ARC\data\<<training or evaluation\json file>>
 
 ## Visualized view of the input and output
-![TASK 1](\apps\img\1,PNG)
+![TASK 1](\apps\img\1.PNG)
 ![TASK 2](\apps\img\2.PNG)
 ![TASK 3](\apps\img\3.PNG)
 
