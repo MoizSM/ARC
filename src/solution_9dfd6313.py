@@ -12,9 +12,7 @@ def solve(): #Logic Funtion
         for x in var:
             for n in range(len(data[x])):  
                 grid = np.asarray(data[x][n]['input'])
-                print(grid)
-                grid = np.rot90(grid)
-                print(grid)
-                grid = np.flipud(grid)
-                print(grid,'\n')
+                grid = np.rot90(grid) #Transposing the grid anti-clockwise
+                grid = np.flipud(grid) #Flipping the grid up-down
+                print(grid,'\n') #Printing the output grid
 solve()
