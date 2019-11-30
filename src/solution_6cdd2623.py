@@ -22,3 +22,11 @@ def solve(): #Logic Funtion
                         storeCol = c #Storing the column that have the same first and last color
                         for l in range(grid.shape[0]):
                             grid[l][c] = grid[0][c] #Changing all the colors of that column to that particular color
+            storeRow = []            
+            for r in range(grid.shape[0]):
+                if(grid[r][0] != 0):
+                    if(grid[r][0]==grid[r][grid.shape[1]-1]):
+                        storeRow.append(r) # Storing the rows that have the same first and last color
+                        for k in range(grid.shape[1]):
+                            grid[r][k] = grid[r][0] # Changing all the colors of that row to that particular row
+solve()
