@@ -15,5 +15,6 @@ def solve(): #Logic Funtion
                 print(grid)
                 grid = np.rot90(grid)
                 print(grid)
-
+                grid = np.flipud(grid)
+                print(grid,'\n')
 solve()
