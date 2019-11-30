@@ -13,8 +13,7 @@ def solve(): #Logic Funtion
     for x in var:
         for n in range(len(data[x])):  
             grid = np.asarray(data[x][n]['input'])
-            print(np.asarray(data[x][n]['output']) , '\n')
-
+            
             storeCol = 0
             for c in range(grid.shape[1]):
                 if(grid[0][c] != 0):
@@ -37,6 +36,6 @@ def solve(): #Logic Funtion
                     if (i not in storeRow and j != storeCol):
                         grid[i][j] = 0
 
-            print(grid, '\n' )
+            print(grid, '\n' ) #Printing output grid for train and test cases
 
 solve()
