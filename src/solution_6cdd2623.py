@@ -14,3 +14,11 @@ def solve(): #Logic Funtion
         for n in range(len(data[x])):  
             grid = np.asarray(data[x][n]['input'])
             print(np.asarray(data[x][n]['output']) , '\n')
+
+            storeCol = 0
+            for c in range(grid.shape[1]):
+                if(grid[0][c] != 0):
+                    if(grid[0][c] == grid[grid.shape[0]-1][c]):
+                        storeCol = c #Storing the column that have the same first and last color
+                        for l in range(grid.shape[0]):
+                            grid[l][c] = grid[0][c] #Changing all the colors of that column to that particular color
