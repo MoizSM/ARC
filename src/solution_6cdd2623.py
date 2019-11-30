@@ -29,4 +29,14 @@ def solve(): #Logic Funtion
                         storeRow.append(r) # Storing the rows that have the same first and last color
                         for k in range(grid.shape[1]):
                             grid[r][k] = grid[r][0] # Changing all the colors of that row to that particular row
+
+            #Changing the rest of the colors of the grid to black (0)
+            for i in range(grid.shape[0]):
+                for j in range(grid.shape[1]):
+                    #If it does not satisfy the condition in the above two loops change the color to black
+                    if (i not in storeRow and j != storeCol):
+                        grid[i][j] = 0
+
+            print(grid, '\n' )
+
 solve()
