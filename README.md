@@ -48,7 +48,7 @@ python solution_6cdd2623.py <<path_to_repository>>\ARC\data\<<training or evalua
 <img src="/apps/img/2.png" width="700" height="350">  
 <img src="/apps/img/3.png" width="600" height="250">
 <img src="/apps/img/4.png" width="600" height="250">
-<img src="/apps/img/5.png" width="700" height="350">
+<img src="/apps/img/5.png" width="600" height="250">
 
 ## Usage of the testing interface
 
