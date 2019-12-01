@@ -44,11 +44,11 @@ python solution_794b24be.py <<path_to_repository>>\ARC\data\<<training or evalua
 python solution_6cdd2623.py <<path_to_repository>>\ARC\data\<<training or evaluation\json file>>
 
 ## Visualized view of the input and output
-![TASK 1](/apps/img/1.PNG)
-![TASK 2](/apps/img/2.PNG)
-![TASK 3](/apps/img/3.PNG)
-![TASK 4](/apps/img/4.PNG)
-![TASK 5](/apps/img/5.PNG)
+![TASK 1](ARC/apps/img/1.PNG)
+![TASK 2](ARC/apps/img/2.PNG)
+![TASK 3](ARC/apps/img/3.PNG)
+![TASK 4](ARC/apps/img/4.PNG)
+![TASK 5](ARC/apps/img/5.PNG)
 
 ## Usage of the testing interface
 
