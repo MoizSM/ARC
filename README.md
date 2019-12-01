@@ -44,8 +44,8 @@ python solution_794b24be.py <<path_to_repository>>\ARC\data\<<training or evalua
 python solution_6cdd2623.py <<path_to_repository>>\ARC\data\<<training or evaluation\json file>>
 
 ## Visualized view of the input and output
-<img src="/apps/img/1.png" width="700" height="350">  
-<img src="/apps/img/2.png" width="700" height="350">  
+<img src="/apps/img/1.png" width="600" height="250">  
+<img src="/apps/img/2.png" width="600" height="250">  
 <img src="/apps/img/3.png" width="600" height="250">
 <img src="/apps/img/4.png" width="600" height="250">
 <img src="/apps/img/5.png" width="600" height="250">
