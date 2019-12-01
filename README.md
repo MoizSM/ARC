@@ -34,15 +34,21 @@ When looking at a task, a test-taker has access to inputs & outputs of the demon
 The approaches can be evaluated using the interface of the command line by defining the route to the json folder in the file directory in either training or evaluation
 * Task 1 solution_6f8cd79b.py
 python solution_6f8cd79b.py <<path_to_repository>>\ARC\data\<<training or evaluation\json file>>
-* Task 2 solution_25d8a9c8.py
-python solution_25d8a9c8.py <<path_to_repository>>\ARC\data\<<training or evaluation\json file>>
-* Task 3 solution_794b24be.py
+* Task 2 solution_ba26e723.py
+python solution_ba26e723.py <<path_to_repository>>\ARC\data\<<training or evaluation\json file>>
+* Task 3 solution_9dfd6313.py
+python solution_9dfd6313.py <<path_to_repository>>\ARC\data\<<training or evaluation\json file>>
+* Task 4 solution_794b24be.py
 python solution_794b24be.py <<path_to_repository>>\ARC\data\<<training or evaluation\json file>>
+* Task 5 solution_6cdd2623.py
+python solution_6cdd2623.py <<path_to_repository>>\ARC\data\<<training or evaluation\json file>>
 
 ## Visualized view of the input and output
 ![TASK 1](\apps\img\1.PNG)
 ![TASK 2](\apps\img\2.PNG)
 ![TASK 3](\apps\img\3.PNG)
+![TASK 4](\apps\img\4.PNG)
+![TASK 5](\apps\img\5.PNG)
 
 ## Usage of the testing interface
 
